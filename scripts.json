@@ -1,0 +1,12 @@
+{
+
+	"Source": {
+
+		"Color": {
+			"deps": [],
+			"desc": "Class to create and manipulate colors. Includes HSB «-» RGB «-» HEX conversions."
+		}
+
+	}
+
+}
