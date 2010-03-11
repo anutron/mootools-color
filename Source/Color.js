@@ -1,8 +1,10 @@
-/*=
+/*
+---
 name: Color
 description: Class to create and manipulate colors. Includes HSB «-» RGB «-» HEX conversions.
-provides: Color
-=*/
+provides: [Color]
+...
+*/
 
 (function(){
 
