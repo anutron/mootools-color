@@ -1,14 +1,15 @@
 /*
 ---
 name: Color
-description: Class to create and manipulate colors. Includes HSB «-» RGB «-» HEX conversions.
-provides: [Color]
+description: Class to create and manipulate colors. Includes HSB «-» RGB «-» HEX conversions. Supports alpha for each type.
+requires: [Core/Type, Core/Array]
+provides: Color
 ...
 */
 
 (function(){
 
-this.Color = function(color, type){
+var Color = this.Color = function(color, type){
 	
 	if (color.isColor){
 		
@@ -147,5 +148,7 @@ Color.rgb = function(r, g, b, a){
 };
 
 if (this.rgb == null) this.rgb = Color.rgb;
+
+if (this.Type) new Type('Color', Color);
 
 })();
