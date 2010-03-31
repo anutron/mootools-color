@@ -2,7 +2,7 @@
 ---
 name: Color
 description: Class to create and manipulate colors. Includes HSB «-» RGB «-» HEX conversions. Supports alpha for each type.
-requires: [Core/Type, Core/Array]
+requires: [Core/Array]
 provides: [Color]
 ...
 */
